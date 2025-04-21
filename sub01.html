@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub01</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/sub01.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_top">
+              <div class="util">
+                <ul class="util_area">
+                  <li><a href="#">LOGIN</a></li>
+                  <li><a href="#">JOIN</a></li>
+                  <li><a href="#">EVENT</a></li>
+                </ul>
+                <ul class="sns_area">
+                  <li>
+                    <a href="#"><img src="img/icon/hd_sns_01.png" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/icon/hd_sns_02.png" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/icon/hd_sns_03.png" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/icon/hd_sns_04.png" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="inner">
+              <h1>
+                <a href="index.html">
+                  <img src="img/index/logo.png" alt="logo" />
+                </a>
+              </h1>
+              <nav>
+                <ul class="gnb">
+                  <li><a href="sub01.html">분양정보</a></li>
+                  <li><a href="sub02.html">매거진</a></li>
+                  <li><a href="sub03.html">빌리브 스토리</a></li>
+                  <li><a href="sub04.html">NEWSLETTER</a></li>
+                  <li><a href="sub05.html">MY PAGE</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="sub">
+              <div class="inner">
+                <div class="sub_menu">
+                  <ul class="sub_area s01">
+                  </ul>
+                  <ul class="sub_area s02">
+                    <li><a href="#"><strong>ALL</strong></a></li>
+                    <li><a href="#">PEOPLE</a></li>
+                    <li><a href="#">SPACE</a></li>
+                    <li><a href="#">CULTURE</a></li>
+                    <li><a href="#">FEATURE</a></li>
+                    <li><a href="#">SSGLIFE</a></li>
+                    <li><a href="#"><strong>VIDEOS</strong></a></li>
+                    <li><a href="#">INTERVIEW</a></li>
+                    <li><a href="#">ANIMATION</a></li>
+                    <li><a href="#">HOMEPLAY</a></li>
+                    <li><a href="#">BRAND STORY</a></li>
+                  </ul>
+                  <ul class="sub_area s03">
+                    <li><a href="#"><span>브랜드 스토리</span></a></li>
+                    <li><a href="#"><span>빌리브 라이프 서비스</span></a></li>
+                  </ul>
+                  <ul class="sub_area s04">
+                  </ul>
+                  <ul class="sub_area s05">
+                    <li><a href="#"><span>최근본 콘텐츠</span></a></li>
+                    <li><a href="#"><span>스크랩 콘텐츠</span></a></li>
+                    <li><a href="#"><span>관심 단지</span></a></li>
+                    <li><a href="#"><span>정보관리 </span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+
+        <section class="main_bg">
+            <h2>분양정보</h2>
+        </section>
+
+        <main>
+            <div class="inner">
+                <form name="villiv_search" action="">
+                    <div class="search_form">
+                        <div class="option01">
+                            <span>진행단계</span>
+                            <select name="select_choice" id="">
+                                <option value>전체</option>
+                                <option value="">공사중</option>
+                                <option value="">분양예정</option>
+                                <option value="">분양 중</option>
+                                <option value="">입주 중</option>
+                                <option value="">입주완료</option>
+                            </select>
+                        </div>
+                        <div class="option02">
+                            <span>지역별</span>
+                            <div class="check">
+                                <label for="check_choice">
+                                    <input type="checkbox"> 서울/수도권
+                                </label>
+                                <label for="check_choice">
+                                    <input type="checkbox"> 경상권
+                                </label>
+                                <label for="check_choice">
+                                    <input type="checkbox"> 전라권
+                                </label>
+                                <label for="check_choice">
+                                    <input type="checkbox"> 제주권
+                                </label>
+                                <label for="check_choice">
+                                    <input type="checkbox"> 강원권
+                                </label>
+                                <label for="check_choice">
+                                    <input type="checkbox"> 충청권
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search_bar">
+                        <input type="text" placeholder="단지명 또는 위치를 입력하세요">
+                        <button type="button" class="icon_search"></button>
+                    </div>
+                </form>
+                <ul>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 에이센트</strong></li>
+                            <li><span>위치</span> 서울시 은평구 불광동 305-3번지 일원</li>
+                            <li><span>세대</span> 총 492세대/실(오피스텔 415실, 공동주택 77세대)</li>
+                            <li><span>문의</span> 02-304-5901</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">21</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 리버런트</strong></li>
+                            <li><span>위치</span> 울산광역시 남구 신정동 22-4번지 일원</li>
+                            <li><span>세대</span> 아파트 311세대</li>
+                            <li><span>문의</span> 052.258.1000</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">64</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 센트하이</strong></li>
+                            <li><span>위치</span> 경기도 남양주시 화도읍 마석우리 295-32</li>
+                            <li><span>세대</span> 아파트 250세대, 상업시설 97실</li>
+                            <li><span>문의</span> 1588-4940</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">78</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 어바인시티</strong></li>
+                            <li><span>위치</span> 경기 이천시 안흥동 270, 272-6 일원</li>
+                            <li><span>세대</span> 528세대(1BL 264세대, 2BL 264세대)</li>
+                            <li><span>문의</span> 031-631-3737</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">68</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 디 에이블</strong></li>
+                            <li><span>위치</span> 서울시 마포구 노고산동 107-46번지 일원</li>
+                            <li><span>세대</span> 333세대(소형주택299세대, 오피스텔 34실)</li>
+                            <li><span>문의</span> 1533-7773</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">94</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 명지 듀클래스</strong></li>
+                            <li><span>위치</span> 부산광역시 강서구 명지동 3605-1 일원</li>
+                            <li><span>세대</span> 1,083실(1단지:247실, 2단지:228실, 3단지:304실, 4단지:304실)</li>
+                            <li><span>문의</span> 051-202-2588</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">93</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>분양 중</strong></li>
+                            <li><strong class="bigger">빌리브 라디체</strong></li>
+                            <li><span>위치</span> 대구 달서구 본동 760-1</li>
+                            <li><span>세대</span> 606세대 (공동주택:520세대 / 오피스텔:86실)</li>
+                            <li><span>문의</span> 1670-9799</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">95</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>입주완료</strong></li>
+                            <li><strong class="bigger">빌리브 루센트</strong></li>
+                            <li><span>위치</span> 대구 북구 칠성동2가 302-125</li>
+                            <li><span>세대</span> 아파트 258세대</li>
+                            <li><span>문의</span> 1800-0339</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">100</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <figure></figure>
+                        <ul class="inner_text">
+                            <li><strong>입주완료</strong></li>
+                            <li><strong class="bigger">빌리브 패러그라프 해운대</strong></li>
+                            <li><span>위치</span> 부산 해운대구 해운대해변로209번나길 61</li>
+                            <li><span>세대</span> 생활숙박시설 284실</li>
+                            <li>
+                                <p>전체공정률</p>
+                                <p class="biggest">100</p>%
+                            </li>
+                        </ul>
+                        <div class="link">
+                            <a href="#" class="icon">
+                                <figure></figure>
+                            </a>
+                            <a href="#">분양홈페이지</a>
+                            <a href="#">공사정보보기</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pagelist">
+                    <span class="back">
+                        <a href="#">back</a>
+                    </span>
+                    <a href="#" class="on">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span class="next">
+                        <a href="#">next</a>
+                    </span>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="inner">
+              <a href="#" class="go_top">
+                <img src="img/footer/go-top.png" alt="">
+              </a>
+              <div class="footer_wrap">
+                <div class="footer_info">
+                  <div class="footer_gnb">
+                    <ul>
+                      <li><a href="#">ALL</a></li>
+                      <li><a href="#">PEOPLE</a></li>
+                      <li><a href="#">SPACE</a></li>
+                      <li><a href="#">CULTURE</a></li>
+                      <li><a href="#">FEATURE</a></li>
+                      <li><a href="#">SSGLIFE</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer_address">
+                    <p>
+                      <a href="#" class="icon_ssg">
+                        <img src="img/footer/footer-logo1.png" alt="">
+                      </a>
+                      <a href="#" class="icon_vil">
+                        <img src="img/footer/footer-logo2.png" alt="">
+                      </a>
+                    </p>
+                    <div class="footer_cs">
+                      <div>
+                        <p class="text">신세계건설 대표이사 허병훈 서울특별시 중구 소월로 10 단암빌딩 21층 <br>사업자번호 201-81-44158
+                        </p>
+                        <p class="pri">
+                          <a href="#" class="aft"><strong>개인정보처리방법</strong></a>
+                          <a href="#">이용약관</a>
+                        </p>
+                        <a href="#" class="notice">개인정보처리방침 개정 공지 안내 <ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        <p class="copy">© 2021 SHINSEGAE E&C All Rights Reserved.</p>
+                      </div>
+                      <div class="as">
+                        <p>A/S 전화접수 안내 <br>
+                          1533-1960 / CS동부센터(경기/강원/충청) <br>
+                          1533-1961 / CS서부센터(서울/인천) <br>
+                          1533-1962 / CS남부센터(충청/전라/경상/제주)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="login_page">
+                  <h3>VILLIV NEWSLETTER</h3>
+                  <form action="">
+                    <input type="name" placeholder="이름">
+                    <input type="e-mail" placeholder="이메일주소">
+                    <p class="agree">
+                      <label for="newagree1">
+                        <input type="checkbox">
+                        <span></span>
+                        (필수) 만 14세 이상임을 확인하고 동의합니다.
+                      </label>
+                    </p>
+                    <p class="agree">
+                      <label for="newagree1">
+                        <input type="checkbox">
+                        <span></span>
+                        [필수] 개인정보 수집 및 이용에 동의합니다.
+                      </label>
+                    </p>
+                  </form>
+                  <div class="btn">
+                    <button type="button">구독하기</button>
+                    <button type="button">지난 뉴스레터 보기</button>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </footer>
+    </div>
+    <!-- //div.wrap -->
+
+    <script src="js/sub01.js">
+
+    </script>
+</body>
+
+</html>
