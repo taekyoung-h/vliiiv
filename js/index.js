@@ -61,6 +61,7 @@ $('nav .gnb').on('mouseover', () => {
    thumbs: {
     swiper: galleryThumbs,
   },
+
   });
 
   var galleryThumbs = new Swiper('.gallery-thumbs', {
@@ -74,7 +75,7 @@ $('nav .gnb').on('mouseover', () => {
       prevEl: '.swiper_video_prev',
     },
   });
-  /*  galleryTop.controller.control = galleryThumbs; */
+    galleryTop.controller.control = galleryThumbs;
     galleryThumbs.controller.control = galleryTop;
 
 
