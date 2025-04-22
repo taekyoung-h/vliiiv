@@ -20,6 +20,7 @@ $('nav .gnb').on('mouseover', () => {
     $('.sub').stop().slideUp();
   })
  
+
   // top_swiper
   var mySwiper01 = new Swiper(".mySwiper01", {
     loop: true,
@@ -44,37 +45,33 @@ $('nav .gnb').on('mouseover', () => {
       navigation: {
         nextEl: ".swiper-button-prev",
         prevEl: ".swiper-button-next",
-        
       },
-
     });
 
-    // video
-  var galleryTop = new Swiper('.gallery-top', {
-    spaceBetween: 10,
-    loop: true,
-    loopedSlides: 4,
-    direction: 'horizontal',
-    /*  thumbs: {
-     swiper: new Swiper('.gallery-thumbs'),
-   }, */
-   thumbs: {
-    swiper: galleryThumbs,
-  },
 
-  });
+    // video
+  
 
   var galleryThumbs = new Swiper('.gallery-thumbs', {
     slidesPerView: 5,
     spaceBetween: 15,
     centeredSlides: true,
     loop: true,
+    loopedSlides: 4,
     allowTouchMove: true,
+    watchSlidesProgress: true,
     navigation: {
       nextEl: '.swiper_video_next',
       prevEl: '.swiper_video_prev',
     },
   });
+
+  var galleryTop = new Swiper('.gallery-top', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 4,
+  });
+
     galleryTop.controller.control = galleryThumbs;
     galleryThumbs.controller.control = galleryTop;
 
