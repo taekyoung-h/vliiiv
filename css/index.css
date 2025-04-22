@@ -379,7 +379,7 @@ header .sub .inner .s05 {
   position: relative;
 }
 .swiper_story h3 {
-  margin-left: 350px;
+  margin-left: 300px;
 }
 .swiper_story .mySwiper02  {
   width: 1200px;
@@ -390,7 +390,6 @@ header .sub .inner .s05 {
   margin: 0 auto;
 }
 .mySwiper02 .swiper-wrapper .swiper-slide {
-  max-width: 360px;
   height: 580px;
 }
 .wrapper02 .swiper-slide > a > figure {
