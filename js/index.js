@@ -121,7 +121,7 @@ $('topbtn').on('click', function(){
 
 
   AOS.init({
-    delay: 400 
+
   });
 
 

@@ -703,11 +703,19 @@ header .sub .inner .s05 {
 /* main_content */
 .main_content .change {
   width: 100%;
-  display: none;
+  transform: translateY(100px);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute; 
 }
 .main_content .change.active {
-  display: block;
+  opacity: 1;
+  transform: translateY(0); /* 최종 위치 */
+  visibility: visible;
+  position: relative;
 }
+
 .main_content .change .cont {
   width: 30%;
   height: 779px;
